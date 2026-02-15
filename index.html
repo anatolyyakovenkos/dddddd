@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alien Files - Classified Document Archive</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Courier New', monospace;
+            background: #2b2b2b;
+            color: #e0e0e0;
+            min-height: 100vh;
+            padding: 2rem;
+        }
+
+        .header {
+            max-width: 1400px;
+            margin: 0 auto 2rem;
+            padding-bottom: 1rem;
+            border-bottom: 2px solid #00ff88;
+        }
+
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            color: #00ff88;
+            text-shadow: 0 0 10px rgba(0, 255, 136, 0.5);
+            margin-bottom: 0.5rem;
+        }
+
+        .subtitle {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        .file-list {
+            list-style: none;
+        }
+
+        .file-item {
+            background: #3a3a3a;
+            margin-bottom: 1px;
+            padding: 1rem 1.5rem;
+            border-left: 3px solid transparent;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .file-item:hover {
+            background: #424242;
+            border-left-color: #00ff88;
+        }
+
+        .file-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .triangle {
+            color: #00ff88;
+            font-size: 0.8rem;
+        }
+
+        .file-id {
+            color: #888;
+            font-size: 0.9rem;
+        }
+
+        .file-link {
+            color: #d4af37;
+            text-decoration: underline;
+            font-size: 0.95rem;
+        }
+
+        .file-link:hover {
+            color: #ffd700;
+        }
+
+        .ai-analysis {
+            margin-top: 0.75rem;
+            padding: 0.75rem;
+            background: rgba(0, 255, 136, 0.05);
+            border-left: 2px solid #00ff88;
+            font-size: 0.85rem;
+            line-height: 1.5;
+            color: #c0c0c0;
+        }
+
+        .ai-label {
+            color: #00ff88;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .classification {
+            display: inline-block;
+            background: #ff4444;
+            color: white;
+            padding: 0.2rem 0.5rem;
+            font-size: 0.7rem;
+            font-weight: bold;
+            margin-left: 0.5rem;
+            border-radius: 2px;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 1rem;
+            }
+
+            .file-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">👽 ALIEN FILES</div>
+        <div class="subtitle">Classified Document Archive - Declassified Under FOIA Request 2024-UAP-7851</div>
+    </div>
+
+    <div class="container">
+        <ul class="file-list">
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">473636</span>
+                    <a href="#" class="file-link">encounter_1721540624_scenario_roswell_incident.txt</a>
+                    <span class="classification">TOP SECRET</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    First-hand military testimony from Roswell Army Air Field personnel describing recovery of non-terrestrial craft and biological entities in July 1947. Document contains witness statements from Major Jesse Marcel and Captain Sheridan Cavitt detailing unusual metallic debris with memory properties and hieroglyphic-like symbols. Weather balloon cover story contradicted by materials analysis showing isotopic ratios inconsistent with Earth-origin metals.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">55522</span>
+                    <a href="#" class="file-link">encounter_1721448408_scenario_nimitz_tic_tac.txt</a>
+                    <span class="classification">SECRET</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    USS Nimitz carrier strike group multiple sensor data from November 2004 documenting objects performing maneuvers beyond known aerospace capabilities. F/A-18 Super Hornet pilots Commander David Fravor and Lieutenant Commander Jim Slaight tracked white tic-tac shaped craft accelerating from 50,000 feet to sea level in seconds with no visible propulsion. FLIR1 video corroborated by ship radar systems and multiple eyewitnesses across six different platforms.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">42882</span>
+                    <a href="#" class="file-link">encounter_1714479738_scenario_rendlesham_forest.txt</a>
+                    <span class="classification">CONFIDENTIAL</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    RAF Woodbridge incident December 1980 involving U.S. Air Force Security Police encountering triangular craft in Rendlesham Forest near nuclear weapons storage facility. Deputy Base Commander Lt. Col. Charles Halt's memo details radiation readings 10x normal background, physical ground impressions, and broken tree branches at triangulation point. Binary code allegedly received by Sergeant Jim Penniston during craft contact contains coordinates to ancient sites.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">48611</span>
+                    <a href="#" class="file-link">encounter_1722040177_scenario_phoenix_lights.txt</a>
+                    <span class="classification">UNCLASSIFIED</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    Mass sighting event March 13, 1997 with over 10,000 witnesses across Arizona observing V-shaped craft estimated at 1-2 miles in length. Video documentation from multiple independent sources shows formation of lights maintaining perfect geometric patterns while moving silently at low altitude. Military initially claimed flares, but timeline and witness testimony contradict official explanation. Governor Fife Symington later admitted witnessing craft himself.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">33873</span>
+                    <a href="#" class="file-link">encounter_1721366658_scenario_belgian_wave.txt</a>
+                    <span class="classification">NATO RESTRICTED</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    Belgian Air Force reports from 1989-1990 wave involving over 13,500 witnesses and confirmed radar tracking of triangular objects. F-16 fighter jets scrambled on multiple occasions achieved radar lock on craft accelerating from 170 mph to 1,100 mph while descending from 10,000 to 500 feet in seconds. Belgian Defense Minister publicly acknowledged objects as real and unexplained. Ground witnesses included police officers and military personnel.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">27174</span>
+                    <a href="#" class="file-link">encounter_1721374563_scenario_tehran_incident.txt</a>
+                    <span class="classification">TOP SECRET</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    September 1976 Tehran UFO incident involving Imperial Iranian Air Force F-4 Phantom II jets experiencing complete weapons systems and communications failure when attempting intercept. Brilliant object displayed intelligent behavior, launching smaller objects and jamming aircraft instrumentation. Multiple ground witnesses and radar confirmation from Mehrabad Airport control tower. Defense Intelligence Agency report deemed case "classic" due to high credibility of sources and correlation of visual and radar data.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">26641</span>
+                    <a href="#" class="file-link">encounter_1721541035_scenario_ariel_school.txt</a>
+                    <span class="classification">CONFIDENTIAL</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    Zimbabwe 1994 mass witnessing event involving 62 schoolchildren ages 6-12 at Ariel School observing silver craft landing and occupants communicating telepathic environmental warnings. Harvard psychiatrist Dr. John Mack's interviews documented consistent testimony across all witnesses despite geographic and social isolation. Children's drawings remarkably similar depicting large-eyed beings and disc-shaped craft. Follow-up interviews 20+ years later maintain original accounts unchanged.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">21853</span>
+                    <a href="#" class="file-link">encounter_1721369364_scenario_uss_roosevelt.txt</a>
+                    <span class="classification">SECRET//NOFORN</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    USS Theodore Roosevelt carrier strike group encounters 2014-2015 off East Coast involving daily observations of spherical objects encasing cubes. Navy pilots reported near-collisions with objects exhibiting no flight surfaces, propulsion, or thermal exhaust while maintaining position in hurricane-force winds. GIMBAL and GOFAST videos captured by fighter jet targeting pods showing rotation and hypersonic velocities. Led to formal Navy UAP reporting guidelines and congressional briefings.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">21796</span>
+                    <a href="#" class="file-link">encounter_1721171088_scenario_cash_landrum.txt</a>
+                    <span class="classification">CONFIDENTIAL</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    December 1980 Texas incident involving Betty Cash, Vickie Landrum, and Colby Landrum encountering diamond-shaped object emitting intense heat and radiation. Witnesses developed severe radiation poisoning symptoms including burns, hair loss, and vision damage requiring hospitalization. Multiple CH-47 Chinook helicopters observed escorting craft. Medical records document injuries consistent with ionizing radiation exposure. Government denied involvement despite helicopter identification matching military inventory.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">17398</span>
+                    <a href="#" class="file-link">encounter_1721448571_scenario_japan_airlines_1628.txt</a>
+                    <span class="classification">UNCLASSIFIED</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    JAL Flight 1628 cargo aircraft November 1986 over Alaska tracked by FAA radar while crew observed massive walnut-shaped craft estimated at aircraft carrier size. Captain Kenju Terauchi reported smaller objects flanking 747 for 50 minutes with ground radar confirmation. FAA Division Chief John Callahan's press conference materials showed radar tapes and pilot testimony before CIA confiscated evidence claiming national security. Case remains officially unexplained by aviation authorities.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">17862</span>
+                    <a href="#" class="file-link">encounter_1721541191_scenario_malmstrom_afb.txt</a>
+                    <span class="classification">TOP SECRET//SCI</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    March 1967 Malmstrom Air Force Base incident where 10 Minuteman nuclear ICBMs simultaneously went offline during UFO overflight observed by security personnel. Captain Robert Salas testimony documents red glowing object hovering above Oscar Flight launch control facility moments before missiles entered "no-go" status. Similar incident at Echo Flight week earlier involved 10 additional missiles. Boeing engineers found no equipment malfunction to explain simultaneous failure of independent systems.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">16880</span>
+                    <a href="#" class="file-link">encounter_1721366282_scenario_washington_dc_1952.txt</a>
+                    <span class="classification">CONFIDENTIAL</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    July 1952 Washington DC UFO wave involving multiple radar confirmations and visual sightings over consecutive weekends above restricted airspace including White House and Capitol. Air traffic controllers at Washington National Airport tracked 7-12 objects performing impossible maneuvers. F-94 Starfire jets scrambled but objects accelerated beyond intercept capability. Press conference by Air Force General John Samford largest since WWII attributed sightings to temperature inversion despite pilot and controller rebuttals.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">15733</span>
+                    <a href="#" class="file-link">document_1712185367_majestic_12.txt</a>
+                    <span class="classification">TOP SECRET/MAJIC</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    Alleged Operation Majestic-12 briefing documents from September 1947 establishing special access program to investigate crashed extraterrestrial craft and occupants. Purports presidential authorization by Truman for committee of scientists, military officials, and intelligence personnel including Vannevar Bush and Roscoe Hillenkoetter. Authenticity disputed with forensic document analysis showing anachronistic typography and terminology, yet some researchers note correlation with verified historical records and witness accounts.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">15640</span>
+                    <a href="#" class="file-link">encounter_1721541330_scenario_aguadilla_puerto_rico.txt</a>
+                    <span class="classification">LAW ENFORCEMENT SENSITIVE</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    April 2013 thermal infrared footage from U.S. Customs and Border Protection aircraft tracking unknown object near Rafael Hernández Airport in Aguadilla. Object captured on FLIR video performing transmedium travel entering ocean at high speed without slowing, continuing underwater while maintaining aerodynamic flight characteristics. SCU (Scientific Coalition for UAP Studies) analysis confirmed object split into two separate craft while submerged. No conventional aircraft or drone technology explains thermal signature and performance characteristics.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">15318</span>
+                    <a href="#" class="file-link">encounter_1720231204_scenario_stephenville_texas.txt</a>
+                    <span class="classification">UNCLASSIFIED</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    January 2008 Stephenville mass sighting involving dozens of witnesses observing mile-long silent craft with intense white lights. Witnesses included pilot Steve Allen and constable Lee Roy Gaitan who provided detailed descriptions of structured craft. Radar data obtained through FOIA showed unknown returns with F-16s in pursuit. Air Force initially denied military aircraft presence then reversed position admitting fighter training exercises. Object performance exceeded conventional aircraft capabilities with instantaneous acceleration and hovering.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">14872</span>
+                    <a href="#" class="file-link">document_1710837616_blue_book_unknowns.txt</a>
+                    <span class="classification">DECLASSIFIED</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    Project Blue Book final statistical analysis 1952-1969 documenting 12,618 reported sightings with 701 cases remaining "unidentified" after investigation. Scientific consultant Dr. J. Allen Hynek's later criticism of project methodology and pressure to debunk rather than investigate objectively. Cases classified as unknown featured multiple reliable witnesses, radar confirmation, electromagnetic effects, and photographic evidence. Condon Committee conclusions dismissing UFO significance contradicted by case evidence leading to academic controversy.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">14399</span>
+                    <a href="#" class="file-link">encounter_1721449357_scenario_transdimensional_hypothesis.txt</a>
+                    <span class="classification">CONFIDENTIAL//NOFORN</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    Theoretical framework analysis proposing UAP phenomena originate from parallel dimensions or alternate realities rather than extraterrestrial origin. Compiled evidence includes sudden appearance/disappearance without acceleration, selective visibility among witnesses, and paranormal elements incompatible with nuts-and-bolts craft hypothesis. Dr. Jacques Vallée's research documenting historical parallels between modern UFO encounters and folklore suggesting interdimensional rather than interstellar travel. Quantum physics implications for consciousness-mediated phenomena.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">14896</span>
+                    <a href="#" class="file-link">encounter_1721430993_scenario_o_hare_airport.txt</a>
+                    <span class="classification">UNCLASSIFIED</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    November 2006 O'Hare International Airport sighting by United Airlines employees and pilots of metallic disc hovering over gate C17. Object observed for several minutes before accelerating vertically through clouds leaving perfectly circular hole in overcast layer. FAA dismissed sighting as weather phenomenon despite 12+ witnesses including airline mechanics and management. No radar data preserved. Case demonstrates institutional reluctance to investigate credible aviation safety incidents involving UAP.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">13567</span>
+                    <a href="#" class="file-link">encounter_1715470453_scenario_lubbock_lights.txt</a>
+                    <span class="classification">DECLASSIFIED</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    August-September 1951 Lubbock, Texas sightings witnessed by Texas Tech professors and photographed by college student Carl Hart Jr. V-formation of 20-30 lights observed on multiple nights traveling silently at high speed. Witnesses included three scientists with expertise in physics and geology lending credibility to observations. Project Blue Book initially investigated seriously but eventually attributed to plovers reflecting city lights despite witness rejection of explanation and photographic evidence showing structured formation patterns.
+                </div>
+            </li>
+
+            <li class="file-item">
+                <div class="file-header">
+                    <span class="triangle">▲</span>
+                    <span class="file-id">13197</span>
+                    <a href="#" class="file-link">encounter_1713232205_scenario_westall_australia.txt</a>
+                    <span class="classification">CONFIDENTIAL</span>
+                </div>
+                <div class="ai-analysis">
+                    <div class="ai-label">AI Analysis:</div>
+                    April 1966 Melbourne mass sighting at Westall High School involving over 200 students and teachers observing silver disc-shaped craft descending into field. Object left circular burn marks in grass and multiple witnesses reported military personnel arriving to cordon area and confiscate photographs. Students interviewed by men in dark suits warning against discussing incident. Australian government files remain classified. Witnesses maintain consistent testimony across 50+ years with many suffering psychological trauma from experience and subsequent intimidation.
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
